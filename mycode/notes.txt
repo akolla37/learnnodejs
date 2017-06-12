@@ -1,0 +1,18 @@
+NodeJS tutorial self Notes
+============================
+
+semver.org (semantic versioning)
+
+npm - the registry (npmjs.com) and npm - program (comes with nodejs installation) are two different things.
+
+Express -- npm install express
+`npm install` -- will create package.json
+Moment -- npm package to parse and format date (npm install moment --save)
+		--save option will save in package.json
+		
+Jasime-node -- npm module that helps with automated testing
+		-- `npm install jasmine-node --save-dev` (-dev will include in package.json as dev dependencies)
+		
+
+
+
