@@ -1,0 +1,75 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Vehicle REST API",
+		"_postman_id": "e8bee14f-1cf5-b75c-54ec-bc59ed91af0d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/vehicle/color/black",
+			"request": {
+				"url": "http://localhost:3000/api/vehicle/color/black",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/vehicle/make/toyota",
+			"request": {
+				"url": "http://localhost:3000/api/vehicle/make/toyota",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/vehicle/5942076fdebe5e065c4b9ec3",
+			"request": {
+				"url": "http://localhost:3000/api/vehicle/5942076fdebe5e065c4b9ec3",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/vehicles",
+			"request": {
+				"url": "http://localhost:3000/api/vehicles",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/vehicles",
+			"request": {
+				"url": "http://localhost:3000/api/vehicles",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"make\":\"tesla\",\n\t\"model\":\"s\",\n\t\"color\":\"white\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
