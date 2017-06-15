@@ -1,0 +1,23 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "AK's first api using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akolla37/first-api.git"
+  },
+  "keywords": [
+    "firstapi",
+    "hellworld"
+  ],
+  "author": "akolla37",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akolla37/first-api/issues"
+  },
+  "homepage": "https://github.com/akolla37/first-api#readme"
+}
